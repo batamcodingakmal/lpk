@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="logo">
 					<img alt="pongo" src="<?php echo base_url() . 'assets/images/logo.png'; ?>">
-					<a href="">Pongo</a>
+					<a href="">California Education Centre</a>
 				</div>
 				<div class="menu">
 					<ul class="simple-menu">
@@ -15,8 +15,8 @@
 						<li><a href="javascript:;" data-link=".contact-wrapper">Contact</a></li>
 					</ul>
 					<ul class="rounded-menu">
-						<li><a href="">Login</a></li>
-						<li><a href="">Register</a></li>
+						<li><a href="<?=base_url()?>auth/login">Login</a></li>
+						<li><a href="<?=base_url()?>auth/register">Register</a></li>
 					</ul>
 				</div>
 				<div class="mobile-nav">
@@ -27,9 +27,9 @@
 		<div class="content">
 			<div class="container">
 				<div class="main-text">
-					<div class="title">Simple and Clean</div>
-					<div class="subtitle">Premium Admin Template</div>
-					<a href="https://codecanyon.net/item/pongo-laravel-admin-template-user-management-crud/20042240"><i class="fa fa-google-wallet"></i> Purchase <span>/</span> $16</a>
+					<div class="title">Ingin Kerja Dan Kuliah Di Luar Negeri</div>
+					<div class="subtitle">Klik Tombol Daftar Sekarang</div>
+					<a href="https://codecanyon.net/item/pongo-laravel-admin-template-user-management-crud/20042240"><i class="fa fa-google-wallet"></i> DAFTAR SEKARANG</a>
 				</div>
 				<div class="image-preview">
 					<div class="image-list"><img alt="pongo" src="<?php echo base_url() . 'assets/images/image-1.png'; ?>"></div>

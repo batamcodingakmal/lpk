@@ -59,11 +59,12 @@
 		optionPagingElement 	: '#option', 
 		pageInfoElement 		: '#info',
 		columns					: [
-	        {field: 'nama', title: 'formulir Name', editable: true, sortable: true, width: 450, align: 'left', search: true},
-	       	{field: 'jenis_kelamin', title: 'Jenis Kelamin', editable: true, sortable: true, width: 450, align: 'left', search: true},
-	       	{field: 'tgl_lahir', title: 'Tanggal lahir', editable: true, sortable: true, width: 450, align: 'left', search: true},
+	        {field: 'nama', title: 'Formulir Name', editable: true, sortable: true, width: 450, align: 'left', search: true},
+	       	{field: 'jenis_kelamin', title: 'Jenis Kelamin', editable: true, sortable: true, width: 200, align: 'left', search: true},
+	       	{field: 'tgl_lahir', title: 'Tanggal lahir', editable: true, sortable: true, width: 350, align: 'left', search: true},
 	       	{field: 'no_wa', title: 'Nomor WA', editable: true, sortable: true, width: 450, align: 'left', search: true},
 	       	{field: 'pendidikan_terakhir', title: 'Pendidikan Terakhir', editable: true, sortable: true, width: 100, align: 'center', search: true},
+	       	{field: 'created_at', title: 'Tanggal Pendaftaraan', editable: true, sortable: true, width: 100, align: 'center', search: true},
 	       	{field: 'menu', title: 'Menu', sortable: false, width: 200, align: 'center', search: false, 
 	       		rowStyler: function(rowData, rowIndex) {
 	       			return menu(rowData, rowIndex);

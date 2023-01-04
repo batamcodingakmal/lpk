@@ -43,7 +43,7 @@
 		var data = $('#form-signin').serialize();
 		$.post("<?php echo base_url() . 'auth/login_attempt'; ?>", data).done(function(data) {
 			if (data.status == "success") {
-				window.location.replace("<?php echo base_url(); ?>");
+				window.location.replace("<?php echo base_url(); ?>dashboard");
 			} else {
 				$('#sign-in').html("Login").attr('disabled', false);
 				$('.validation-message').html('');

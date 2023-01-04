@@ -32,7 +32,7 @@ spl_autoload_register(function($classname) {
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/lkp_cec';
+$config['base_url'] = 'http://localhost/lpk';
 
 /*
 |--------------------------------------------------------------------------

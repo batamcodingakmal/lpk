@@ -362,7 +362,9 @@ body {
       .top-content .content .container .main-text {
         color: #fff; }
         .top-content .content .container .main-text .title {
-          font-size: 55px; }
+          font-size: 65px; 
+        font-family: fantasy;
+      }
         .top-content .content .container .main-text .subtitle {
           font-size: 28px; }
         .top-content .content .container .main-text a {

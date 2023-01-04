@@ -6,129 +6,17 @@
 			<div class="logo-box">
 				<img alt="pongo" src="<?php echo base_url() . 'assets/images/logo.png'; ?>">
 				<a href="<?php echo base_url(); ?>">
-					<div class="logo-title">Pongo</div>
+					<div class="logo-title">CEC</div>
 				</a>
 			</div>
 		</div>
 		<div class="top-nav-content">
 			<div class="top-nav-box">
-				<div class="quick-link">
-					<div class="link-icon"><i class="fa fa-bars"></i></div>
-					<ul class="animated bounceInUp">
-						<li><a href=""><i class="fa fa-bars"></i> Mailbox</a></li>
-						<li><a href=""><i class="fa fa-map-marker"></i> Calendar</a></li>
-						<li><a href=""><i class="fa fa-suitcase"></i> Map</a></li>
-						<li><a href=""><i class="fa fa-signal"></i> Trainning</a></li>
-						<li><a href=""><i class="fa fa-paper-plane"></i> Photos</a></li>
-						<li><a href=""><i class="fa fa-map-o"></i> Timeline</a></li>
-					</ul>
-				</div>
-				<div class="global-search">
-					<form class="form-inline">
-						<button class="btn btn-primary" type="submit"> <i class="fa fa-search"></i></button>
-						<input class="form-control mb-1 mr-sm-1 mb-sm-0" placeholder="Search projects..." type="text">
-					</form>
-				</div>
+				
+				
 				<div class="top-notification">
-					<div class="notification-icon">
-						<i class="fa fa-envelope-open"></i>
-					</div>
-					<div class="notification-icon">
-						<div class="notification-badge bounceInDown animated timer" data-from="0" data-to="21">21</div>
-						<i class="fa fa-comments"></i>
-						<div class="notification-wrapper animated bounceInUp">
-							<div class="notification-header">Notifications <span class="notification-count">3</span></div>
-							<div class="notification-body">
-								<a class="notification-list" href="">
-									<div class="notification-image">
-										<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-									</div>
-									<div class="notification-content">
-										<div class="notification-text"><strong>Mark</strong> sent you a message</div>
-										<div class="notification-time">1 minutes ago</div>
-									</div>
-								</a>
-								<a class="notification-list" href="">
-									<div class="notification-image">
-										<img alt="pongo" src="<?php echo base_url() . 'assets/images/chocolate.jpg'; ?>">
-									</div>
-									<div class="notification-content">
-										<div class="notification-text"><strong>Lisa</strong> sent you a message</div>
-										<div class="notification-time">1 minutes ago</div>
-									</div>
-								</a>
-							</div>
-							<div class="notification-footer">
-								<a href="">See all notifications</a>
-							</div>
-						</div>
-					</div>
-					<div class="notification-icon">
-						<div class="notification-badge bounceInDown animated timer" data-from="0" data-to="3">3</div>
-						<i class="fa fa-bell"></i>
-						<div class="notification-wrapper animated bounceInUp">
-							<div class="notification-header">Notifications <span class="notification-count">3</span></div>
-							<div class="notification-body">
-								<a class="notification-list" href="">
-									<div class="notification-image">
-										<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-									</div>
-									<div class="notification-content">
-										<div class="notification-text"><strong>Mark</strong> sent you a email</div>
-										<div class="notification-time">1 minutes ago</div>
-									</div>
-								</a>
-								<a class="notification-list" href="">
-									<div class="notification-image">
-										<img alt="pongo" src="<?php echo base_url() . 'assets/images/chocolate.jpg'; ?>">
-									</div>
-									<div class="notification-content">
-										<div class="notification-text"><strong>Lisa</strong> sent you a email</div>
-										<div class="notification-time">1 minutes ago</div>
-									</div>
-								</a>
-								<a class="notification-list" href="">
-									<div class="notification-image">
-										<img alt="pongo" src="<?php echo base_url() . 'assets/images/belts.jpg'; ?>">
-									</div>
-									<div class="notification-content">
-										<div class="notification-text"><strong>Parker</strong> sent you a email</div>
-										<div class="notification-time">1 minutes ago</div>
-									</div>
-								</a>
-								<a class="notification-list" href="">
-									<div class="notification-image">
-										<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-									</div>
-									<div class="notification-content">
-										<div class="notification-text"><strong>Sophie</strong> sent you a email</div>
-										<div class="notification-time">1 minutes ago</div>
-									</div>
-								</a>
-								<a class="notification-list" href="">
-									<div class="notification-image">
-										<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-									</div>
-									<div class="notification-content">
-										<div class="notification-text"><strong>Sophie</strong> sent you a email</div>
-										<div class="notification-time">1 minutes ago</div>
-									</div>
-								</a>
-								<a class="notification-list" href="">
-									<div class="notification-image">
-										<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-									</div>
-									<div class="notification-content">
-										<div class="notification-text"><strong>Sophie</strong> sent you a email</div>
-										<div class="notification-time">1 minutes ago</div>
-									</div>
-								</a>
-							</div>
-							<div class="notification-footer">
-								<a href="">See all notifications</a>
-							</div>
-						</div>
-					</div>
+					
+					
 				</div>
 				<div class="user-top-profile">
 					<div class="user-image">
@@ -139,7 +27,7 @@
 						<div class="user-name"><?php echo $active_user->name; ?></div>
 						<div class="user-group"><?php echo $active_user_group->group_name; ?></div>
 						<ul class="user-top-menu animated bounceInUp">
-							<li><a href="<?php echo base_url() . 'profile'; ?>">Profile <div class="badge badge-yellow pull-right">2</div></a></li>
+							<li><a href="<?php echo base_url() . 'profile'; ?>">Profile <div class="badge badge-yellow pull-right"></div></a></li>
 							<li><a href="<?php echo base_url() . 'settings'; ?>">Settings</a></li>
 							<li><a href="<?php echo base_url() . 'change_password'; ?>">Change Password</a></li>
 							<li><a href="<?php echo base_url() . 'auth/logout'; ?>">Logout</a></li>
@@ -154,105 +42,9 @@
 <div class="wrapper <?php echo $menu_style != 'default' ? $menu_style : ''; ?>">
 	<aside class="side-nav">
 		<div class="side-notification">
-			<div class="notification-icon">
-				<i class="fa fa-envelope-open"></i>
-			</div>
-			<div class="notification-icon">
-				<div class="notification-badge bounceInDown animated timer" data-from="0" data-to="21">21</div>
-				<i class="fa fa-comments"></i>
-				<div class="notification-wrapper animated bounceInUp">
-					<div class="notification-header">Notifications <span class="notification-count">3</span></div>
-					<div class="notification-body">
-						<a class="notification-list" href="">
-							<div class="notification-image">
-								<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-							</div>
-							<div class="notification-content">
-								<div class="notification-text"><strong>Mark</strong> sent you a message</div>
-								<div class="notification-time">1 minutes ago</div>
-							</div>
-						</a>
-						<a class="notification-list" href="">
-							<div class="notification-image">
-								<img alt="pongo" src="<?php echo base_url() . 'assets/images/chocolate.jpg'; ?>">
-							</div>
-							<div class="notification-content">
-								<div class="notification-text"><strong>Lisa</strong> sent you a message</div>
-								<div class="notification-time">1 minutes ago</div>
-							</div>
-						</a>
-					</div>
-					<div class="notification-footer">
-						<a href="">See all notifications</a>
-					</div>
-				</div>
-			</div>
-			<div class="notification-icon">
-				<div class="notification-badge bounceInDown animated timer" data-from="0" data-to="3">3</div>
-				<i class="fa fa-bell"></i>
-				<div class="notification-wrapper animated bounceInUp">
-					<div class="notification-header">Notifications <span class="notification-count">3</span></div>
-					<div class="notification-body">
-						<a class="notification-list" href="">
-							<div class="notification-image">
-								<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-							</div>
-							<div class="notification-content">
-								<div class="notification-text"><strong>Mark</strong> sent you a email</div>
-								<div class="notification-time">1 minutes ago</div>
-							</div>
-						</a>
-						<a class="notification-list" href="">
-							<div class="notification-image">
-								<img alt="pongo" src="<?php echo base_url() . 'assets/images/chocolate.jpg'; ?>">
-							</div>
-							<div class="notification-content">
-								<div class="notification-text"><strong>Lisa</strong> sent you a email</div>
-								<div class="notification-time">1 minutes ago</div>
-							</div>
-						</a>
-						<a class="notification-list" href="">
-							<div class="notification-image">
-								<img alt="pongo" src="<?php echo base_url() . 'assets/images/belts.jpg'; ?>">
-							</div>
-							<div class="notification-content">
-								<div class="notification-text"><strong>Parker</strong> sent you a email</div>
-								<div class="notification-time">1 minutes ago</div>
-							</div>
-						</a>
-						<a class="notification-list" href="">
-							<div class="notification-image">
-								<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-							</div>
-							<div class="notification-content">
-								<div class="notification-text"><strong>Sophie</strong> sent you a email</div>
-								<div class="notification-time">1 minutes ago</div>
-							</div>
-						</a>
-						<a class="notification-list" href="">
-							<div class="notification-image">
-								<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-							</div>
-							<div class="notification-content">
-								<div class="notification-text"><strong>Sophie</strong> sent you a email</div>
-								<div class="notification-time">1 minutes ago</div>
-							</div>
-						</a>
-						<a class="notification-list" href="">
-							<div class="notification-image">
-								<img alt="pongo" src="<?php echo base_url() . 'assets/images/asparagus.jpg'; ?>">
-							</div>
-							<div class="notification-content">
-								<div class="notification-text"><strong>Sophie</strong> sent you a email</div>
-								<div class="notification-time">1 minutes ago</div>
-							</div>
-						</a>
-					</div>
-					<div class="notification-footer">
-						<a href="">See all notifications</a>
-					</div>
-				</div>
-			</div>
+			
+			
+			
 		</div>
 		<div class="user-side-profile">
 			<div class="user-image">
@@ -288,9 +80,9 @@
 						            <i class="<?php echo $menu->icon; ?>"></i> 
 						            <span><?php echo $menu->title; ?></span>
 						            <?php if ($key == 0) { ?>
-							            <div class="badge badge-red pull-right">21</div>
+							            <div class="badge badge-red pull-right"></div>
 						            <?php } elseif ($key == 6) { ?>
-							            <div class="badge badge-grey pull-right">121</div>
+							            <div class="badge badge-grey pull-right"></div>
 						            <?php } ?>
 					            </a>
 					            <ul>
@@ -314,7 +106,7 @@
 	            <?php } ?>
 			</ul>
 		</div>
-		<div class="main-menu-title">HTML Template</div>
+		
 		<div class="main-menu">
 			<ul>
 				<?php foreach ($list_menu as $key => $menu) { ?>
@@ -354,9 +146,8 @@
 		</div>
 		<div class="side-banner">
 			<div class="banner-content">
-				<div class="title">Pongo <div class="version">v1.1</div></div>
-				<div class="subtitle">Simple & Clean Admin Template</div>
-				<a class="purchase" href="https://codecanyon.net/item/pongo-laravel-admin-template-user-management-crud/20042240">Purchase Now</a>
+				<div class="title">LPK CEC<div class="version">v1.1</div></div>
+				<div class="subtitle">Lembaga Paling Terpecaya Di Indonesia</div>
 			</div>
 		</div>
 	</aside>
