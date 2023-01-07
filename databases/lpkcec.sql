@@ -11,7 +11,7 @@
  Target Server Version : 100427 (10.4.27-MariaDB)
  File Encoding         : 65001
 
- Date: 30/12/2022 17:21:57
+ Date: 07/01/2023 13:38:15
 */
 
 SET NAMES utf8mb4;
@@ -37,13 +37,14 @@ CREATE TABLE `formulir`  (
   `users_updated` int NULL DEFAULT NULL,
   `softdelete` enum('0','1') CHARACTER SET utf32 COLLATE utf32_bin NULL DEFAULT '0',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf32 COLLATE = utf32_bin ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf32 COLLATE = utf32_bin ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of formulir
 -- ----------------------------
-INSERT INTO `formulir` VALUES (1, 3, 'akmal', 'L', '2022-12-31', '08127010922', '[{\"file_name\":\"18-CC-1024x576.jpg\",\"file_size\":88.33,\"file_type\":\"image/jpeg\",\"file_thumbnail\":\"http://localhost/lkp_cec/upload/18-CC-1024x576.jpg\"}]', '[{\"file_name\":\"ddae61752134e117942cc8fd300a4146.jpg\",\"file_size\":50706,\"file_type\":\"image/jpeg\",\"file_thumbnail\":\"http://localhost/lkp_cec/upload/ddae61752134e117942cc8fd300a4146.jpg\"}]', 'SMP', '2022-12-30 16:59:22', '2022-12-30 17:19:52', 3, 3, '0');
+INSERT INTO `formulir` VALUES (1, 3, 'akmal', 'P', '2022-12-31', '08127010922', '[{\"file_name\":\"18-CC-1024x576.jpg\",\"file_size\":88.33,\"file_type\":\"image/jpeg\",\"file_thumbnail\":\"http://localhost/lkp_cec/upload/18-CC-1024x576.jpg\"}]', '[{\"file_name\":\"ddae61752134e117942cc8fd300a4146.jpg\",\"file_size\":50706,\"file_type\":\"image/jpeg\",\"file_thumbnail\":\"http://localhost/lkp_cec/upload/ddae61752134e117942cc8fd300a4146.jpg\"}]', 'SMP', '2022-12-30 16:59:22', '2023-01-04 20:29:02', 3, 1, '0');
 INSERT INTO `formulir` VALUES (2, 4, 'adsasd', 'L', '2022-12-30', '234567', '[{\"file_name\":\"banner-penelitian-3.jpg\",\"file_size\":75944,\"file_type\":\"image/jpeg\",\"file_thumbnail\":\"http://localhost/lkp_cec/upload/banner-penelitian-3.jpg\"}]', '[{\"file_name\":\"18-CC-1024x576.jpg\",\"file_size\":90453,\"file_type\":\"image/jpeg\",\"file_thumbnail\":\"http://localhost/lkp_cec/upload/18-CC-1024x576.jpg\"}]', 'SD', '2022-12-30 17:16:14', '2022-12-30 17:19:40', 3, 3, '0');
+INSERT INTO `formulir` VALUES (3, 1, 'jaya1', 'L', '2023-01-04', '0895622873739', '[{\"file_name\":\"banner-penelitian-3.jpg\",\"file_size\":75944,\"file_type\":\"image/jpeg\",\"file_thumbnail\":\"http://localhost/lpk/upload/banner-penelitian-3.jpg\"}]', '[{\"file_name\":\"18-CC-1024x576.jpg\",\"file_size\":90453,\"file_type\":\"image/jpeg\",\"file_thumbnail\":\"http://localhost/lpk/upload/18-CC-1024x576.jpg\"}]', 'S3', '2023-01-04 20:20:13', '2023-01-04 20:20:13', 1, 1, '0');
 
 -- ----------------------------
 -- Table structure for groups
@@ -85,7 +86,7 @@ INSERT INTO `menus` VALUES (2, 1, 0, 'Users', 'user', 'i i-dot');
 INSERT INTO `menus` VALUES (3, 1, 0, 'Groups', 'group', 'i i-dot');
 INSERT INTO `menus` VALUES (4, 1, 0, 'Privileges', 'privilege', 'i i-dot');
 INSERT INTO `menus` VALUES (5, 0, 0, 'Program', 'program', 'fa fa-database');
-INSERT INTO `menus` VALUES (6, 0, 0, 'Formulir', 'formulir', 'i i-dot');
+INSERT INTO `menus` VALUES (6, 0, 0, 'Formulir', 'formulir', 'fa fa-database');
 
 -- ----------------------------
 -- Table structure for migrations
